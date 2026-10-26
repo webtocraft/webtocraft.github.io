@@ -9,14 +9,14 @@
 <meta name="author" content="WebToCraft">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <meta name="theme-color" content="#00dc82">
-<link rel="canonical" id="seoCanonical" href="https://webtocraft.blogspot.com/">
+<link rel="canonical" id="seoCanonical" href="https://WebToCraft.blogspot.com/">
 
 <!-- Open Graph / Facebook / WhatsApp -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="WebToCraft">
 <meta property="og:title" id="ogTitle" content="WebToCraft — Premium Blogger Templates, Web Themes & Scripts">
 <meta property="og:description" id="ogDesc" content="Download or buy fast-loading, 100% SEO-optimized Blogger templates, Google Apps Script templates, and custom web solutions from WebToCraft.">
-<meta property="og:url" content="https://webtocraft.blogspot.com/">
+<meta property="og:url" content="https://WebToCraft.blogspot.com/">
 <meta property="og:image" content="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200">
 
 <!-- Twitter Card -->
@@ -25,17 +25,17 @@
 <meta name="twitter:description" id="twDesc" content="100% Responsive & SEO-Ready Web Templates, Scripts, and Themes.">
 <meta name="twitter:image" content="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200">
 
-<!-- Dynamic JSON-LD Structured Data for #1 Google Ranking -->
+<!-- Dynamic JSON-LD Structured Data -->
 <script type="application/ld+json" id="dynamicSchema">
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "WebToCraft",
-  "url": "https://webtocraft.blogspot.com/",
+  "url": "https://WebToCraft.blogspot.com/",
   "description": "Premium Blogger Templates, Google Apps Script Templates, Ecommerce Themes, and Custom Web Solutions.",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://webtocraft.blogspot.com/?q={search_term_string}",
+    "target": "https://WebToCraft.blogspot.com/?q={search_term_string}",
     "query-input": "required name=search_term_string"
   }
 }
@@ -273,7 +273,6 @@ header {
 .main-container { max-width: 1600px; margin: 0 auto; padding: 24px 16px 40px; }
 @media (min-width: 1024px) { .main-container { padding: 40px 24px 60px; } }
 
-/* Desktop version: Article/Detail/Category view width 90% */
 @media (min-width: 1024px) {
   #detailView.view-section {
     width: 90%;
@@ -295,7 +294,6 @@ header {
 .section-title { font-size: 18px; font-weight: 900; color: var(--text); text-transform: uppercase; letter-spacing: -0.5px; }
 .section-title span { color: var(--green); }
 
-/* Hide filter-tabs on mobile as requested */
 .filter-tabs { display: none; gap: 6px; flex-wrap: wrap; }
 @media (min-width: 768px) {
   .filter-tabs { display: flex; }
@@ -388,7 +386,7 @@ header {
 .btn-secondary:hover { background: var(--gray-200); }
 
 /* ═══════════════════════════════════════
-   ENHANCED PREMIUM SPINNER / LOADER
+   LOADER SPINNER
 ═══════════════════════════════════════ */
 .spinner-overlay {
   position: fixed; inset: 0;
@@ -414,7 +412,7 @@ header {
 .spinner-ring-inner {
   position: absolute; inset: 10px;
   border: 3px solid rgba(59, 130, 246, 0.15);
-  border-bottom-color: var(--accent, #3b82f6);
+  border-bottom-color: #3b82f6;
   border-radius: 50%;
   animation: spinReverse 0.8s linear infinite;
 }
@@ -485,7 +483,7 @@ header {
 }
 .btn-demo:hover { transform: translateY(-2px); }
 
-/* Blogger Comment Box integration in Detail View */
+/* Blogger Comment Box integration */
 .blogger-comment-box-wrap {
   background: var(--white); border: 2px solid rgba(16, 185, 129, 0.4); border-radius: 16px;
   padding: 20px; margin-top: 32px; box-shadow: var(--shadow-lg);
@@ -634,7 +632,7 @@ header {
 .order-id-badge { background: var(--dark); color: var(--green); font-size: 12px; font-weight: 900; padding: 6px 16px; border-radius: 6px; display: inline-block; margin: 10px 0 20px; letter-spacing: 1px; }
 
 /* ═══════════════════════════════════════
-   MOBILE DRAWER & REFERENCE IMAGE STYLING
+   MOBILE DRAWER
 ═══════════════════════════════════════ */
 .mobile-drawer {
   position: fixed; top: 0; left: 0; bottom: 0;
@@ -659,7 +657,7 @@ header {
 .drawer-link:hover { color: var(--green); padding-left: 26px; }
 
 /* ═══════════════════════════════════════
-   OVERLAY
+   OVERLAY & TOAST
 ═══════════════════════════════════════ */
 .overlay {
   position: fixed; inset: 0;
@@ -672,9 +670,6 @@ header {
 }
 .overlay.active { display: block; opacity: 1; }
 
-/* ═══════════════════════════════════════
-   TOAST
-═══════════════════════════════════════ */
 .toast {
   position: fixed; bottom: 90px; left: 50%;
   transform: translateX(-50%) translateY(20px);
@@ -729,7 +724,6 @@ footer {
 .bottom-nav button.active, .bottom-nav button:hover { color: var(--green); }
 .bottom-nav button i { font-size: 20px; }
 
-/* Empty state */
 .empty-state { text-align: center; padding: 80px 20px; color: var(--gray-400); grid-column: 1/-1; }
 .empty-state i { font-size: 40px; margin-bottom: 16px; display: block; }
 .empty-state p { font-size: 14px; font-weight: 600; }
@@ -737,7 +731,7 @@ footer {
 </head>
 <body data-theme="dark">
 
-<!-- ── Enhanced Premium Spinner / Loader ── -->
+<!-- ── Loader Spinner ── -->
 <div class="spinner-overlay" id="spinner">
   <div class="spinner-container">
     <div class="spinner-ring"></div>
@@ -750,7 +744,7 @@ footer {
 <!-- ── Toast ── -->
 <div class="toast" id="toast"></div>
 
-<!-- ── Topbar (With About, Contact, Privacy, Disclaimer on Right) ── -->
+<!-- ── Topbar ── -->
 <div class="topbar">
   <div class="topbar-inner">
     <div style="display:flex;gap:24px;">
@@ -808,7 +802,7 @@ footer {
   </div>
 </div>
 
-<!-- ── Hero (Hidden on Mobile) ── -->
+<!-- ── Hero ── -->
 <section class="hero" id="heroSection">
   <div class="hero-inner">
     <h2>Premium Blogger Themes &amp;<br><span>Smart Web Solutions</span></h2>
@@ -829,7 +823,7 @@ footer {
   
   <!-- Home View Section -->
   <div id="homeView" class="view-section active">
-    <!-- Featured Collection (Paid/Other Themes) -->
+    <!-- Featured Collection -->
     <div id="featuredSectionWrapper">
       <div class="section-header">
         <h2 class="section-title">Featured <span>Collection</span></h2>
@@ -853,7 +847,7 @@ footer {
     </div>
   </div>
 
-  <!-- Detail / Article / Category View Section (90% width on Desktop, shows Header & Footer) -->
+  <!-- Detail / Article / Category View Section -->
   <div id="detailView" class="view-section">
     <div id="viewContent"></div>
   </div>
@@ -898,7 +892,7 @@ footer {
   <div class="panel-footer" id="panelFooter"></div>
 </div>
 
-<!-- ── Mobile Drawer (Matching Reference Image) ── -->
+<!-- ── Mobile Drawer ── -->
 <div class="mobile-drawer" id="mobileDrawer">
   <div class="drawer-head">
     <span>Menu</span>
@@ -934,7 +928,7 @@ footer {
 
 <script>
 // ══════════════════════════════════════════════════
-// CONFIG & STATE (GitHub & Blogger Compatible Integration)
+// CONFIG & STATE (GitHub & Blogger Feeds Integration)
 // ══════════════════════════════════════════════════
 const DEFAULT_BLOG = 'https://webtocraft.blogspot.com';
 const MY_WHATSAPP  = '8801711466850';
@@ -978,22 +972,52 @@ function updateThemeIcon(theme) {
 initTheme();
 
 // ══════════════════════════════════════════════════
-// INIT & BLOGGER FEED FETCHING WITH SHORTCODE PARSING
+// BLOGGER FEED FETCHING (JSONP for GitHub Pages CORS Bypass)
 // ══════════════════════════════════════════════════
 function getBlogBaseUrl() {
-  return DEFAULT_BLOG.replace(/\/+$/, '');
+  if (window.location.hostname.includes('blogspot.com')) {
+    return window.location.origin;
+  }
+  return DEFAULT_BLOG;
+}
+
+function fetchWithJsonp(baseUrl) {
+  return new Promise((resolve) => {
+    const cb = 'blogger_cb_' + Date.now() + '_' + Math.floor(Math.random() * 1000);
+    const script = document.createElement('script');
+    script.src = `${baseUrl}/feeds/posts/default?alt=json-in-script&callback=${cb}&max-results=150`;
+
+    const timer = setTimeout(() => {
+      resolve([]);
+      cleanup();
+    }, 10000);
+
+    window[cb] = (data) => {
+      clearTimeout(timer);
+      resolve(data && data.feed && data.feed.entry ? data.feed.entry : []);
+      cleanup();
+    };
+    script.onerror = () => {
+      clearTimeout(timer);
+      resolve([]);
+      cleanup();
+    };
+    function cleanup() {
+      if (script.parentNode) script.parentNode.removeChild(script);
+      delete window[cb];
+    }
+    document.head.appendChild(script);
+  });
 }
 
 async function init() {
   const baseUrl = getBlogBaseUrl();
-  
-  // JSONP first for GitHub Pages compatibility (avoids CORS issues)
   let entries = await fetchWithJsonp(baseUrl);
 
+  // Fallback direct fetch if JSONP returns empty
   if (!entries || !entries.length) {
     try {
-      const feedUrl = `${baseUrl}/feeds/posts/default?alt=json&max-results=150`;
-      const res = await fetch(feedUrl);
+      const res = await fetch(`${baseUrl}/feeds/posts/default?alt=json&max-results=150`);
       if (res.ok) {
         const json = await res.json();
         entries = json.feed ? json.feed.entry : null;
@@ -1045,7 +1069,7 @@ async function init() {
         preview = shortcodeDemo[1];
       } else {
         const demoM = content.match(/href=["'](https?:\/\/[^"']+)["'][^>]*>(?:[^<]*)(?:Preview|Live Preview|Demo|Live Demo)/i) ||
-                      content.match(/href=["'](https?:\/\/[^"']+)["'][^>]*title=["'](?:Preview|Live Preview|Demo)/i);
+                    content.match(/href=["'](https?:\/\/[^"']+)["'][^>]*title=["'](?:Preview|Live Preview|Demo)/i);
         if (demoM) preview = demoM[1];
         else {
           const altLink = (e.link || []).find(l => l.rel === 'alternate');
@@ -1096,36 +1120,6 @@ async function init() {
   handleHashRouting();
 }
 
-function fetchWithJsonp(baseUrl) {
-  return new Promise((resolve) => {
-    const cb = 'blogger_cb_' + Date.now() + '_' + Math.floor(Math.random() * 10000);
-    const script = document.createElement('script');
-    script.src = `${baseUrl}/feeds/posts/default?alt=json-in-script&callback=${cb}&max-results=150&_=${Date.now()}`;
-    script.async = true;
-
-    const timer = setTimeout(() => {
-      resolve([]);
-      cleanup();
-    }, 10000);
-
-    window[cb] = (data) => {
-      clearTimeout(timer);
-      resolve(data && data.feed && data.feed.entry ? data.feed.entry : []);
-      cleanup();
-    };
-    script.onerror = () => {
-      clearTimeout(timer);
-      resolve([]);
-      cleanup();
-    };
-    function cleanup() {
-      if (script.parentNode) script.parentNode.removeChild(script);
-      delete window[cb];
-    }
-    document.head.appendChild(script);
-  });
-}
-
 // ══════════════════════════════════════════════════
 // RENDER HELPERS
 // ══════════════════════════════════════════════════
@@ -1135,32 +1129,42 @@ function renderCategoryMenu() {
   const desktopNav = document.getElementById('desktopNav');
   const drawerLinksContainer = document.getElementById('drawerCategoryLinks');
 
-  tabs.innerHTML = '';
-  const allTab = document.createElement('button');
-  allTab.className = 'filter-tab active'; allTab.textContent = 'All';
-  allTab.onclick = () => filterByCategory('all');
-  tabs.appendChild(allTab);
+  if (tabs) {
+    tabs.innerHTML = '';
+    const allTab = document.createElement('button');
+    allTab.className = 'filter-tab active'; allTab.textContent = 'All';
+    allTab.onclick = () => filterByCategory('all');
+    tabs.appendChild(allTab);
+  }
 
-  drawerLinksContainer.innerHTML = `<a href="javascript:void(0)" class="drawer-link" onclick="filterByCategory('all');toggleDrawer(false)"><i class="fa-solid fa-layer-group"></i> All Themes</a>`;
+  if (drawerLinksContainer) {
+    drawerLinksContainer.innerHTML = `<a href="javascript:void(0)" class="drawer-link" onclick="filterByCategory('all');toggleDrawer(false)"><i class="fa-solid fa-layer-group"></i> All Themes</a>`;
+  }
 
   cats.forEach(cat => {
-    const btn = document.createElement('button');
-    btn.className = 'filter-tab'; btn.textContent = cat;
-    btn.onclick = () => filterByCategory(cat);
-    tabs.appendChild(btn);
+    if (tabs) {
+      const btn = document.createElement('button');
+      btn.className = 'filter-tab'; btn.textContent = cat;
+      btn.onclick = () => filterByCategory(cat);
+      tabs.appendChild(btn);
+    }
 
-    const navA = document.createElement('a');
-    navA.href = 'javascript:void(0)';
-    navA.textContent = cat;
-    navA.onclick = () => filterByCategory(cat);
-    desktopNav.appendChild(navA);
+    if (desktopNav) {
+      const navA = document.createElement('a');
+      navA.href = 'javascript:void(0)';
+      navA.textContent = cat;
+      navA.onclick = () => filterByCategory(cat);
+      desktopNav.appendChild(navA);
+    }
 
-    const drawerA = document.createElement('a');
-    drawerA.href = 'javascript:void(0)';
-    drawerA.className = 'drawer-link';
-    drawerA.innerHTML = `<i class="fa-solid fa-folder-open"></i> ${cat}`;
-    drawerA.onclick = () => { filterByCategory(cat); toggleDrawer(false); };
-    drawerLinksContainer.appendChild(drawerA);
+    if (drawerLinksContainer) {
+      const drawerA = document.createElement('a');
+      drawerA.href = 'javascript:void(0)';
+      drawerA.className = 'drawer-link';
+      drawerA.innerHTML = `<i class="fa-solid fa-folder-open"></i> ${cat}`;
+      drawerA.onclick = () => { filterByCategory(cat); toggleDrawer(false); };
+      drawerLinksContainer.appendChild(drawerA);
+    }
   });
 }
 
@@ -1301,7 +1305,7 @@ function handleSearch(q) {
 }
 
 // ══════════════════════════════════════════════════
-// ROUTING & BACK BUTTON SUPPORT
+// ROUTING & DETAILS VIEW
 // ══════════════════════════════════════════════════
 function getSlug(title) {
   return encodeURIComponent(title.trim().replace(/[^\w\s-]+/g, '').replace(/\s+/g, '-'));
@@ -1345,7 +1349,6 @@ function openDetails(id, updateHash = true) {
     <article class="detail-grid" itemscope itemtype="https://schema.org/Product">
       <div class="detail-left">
         <div class="detail-image"><img src="${t.image}" alt="${t.title}"></div>
-        <!-- features-grid directly under the image -->
         <div class="features-grid">
           <div class="feature-item"><i class="fa-solid fa-circle-check"></i>100% Responsive</div>
           <div class="feature-item"><i class="fa-solid fa-circle-check"></i>SEO Optimized</div>
@@ -1364,7 +1367,6 @@ function openDetails(id, updateHash = true) {
           ${!t.isFree ? `<div class="detail-old">Original: <span>$${(t.price*1.5).toFixed(0)}</span></div>` : ''}
         </div>
 
-        <!-- Demo link & Cart/Download buttons moved above description -->
         <div class="detail-cta" style="margin-bottom: 24px;">
           ${t.isFree ? `
             <a href="${t.downloadLink}" target="_blank" class="btn-buy" style="text-align:center;">
@@ -1388,7 +1390,6 @@ function openDetails(id, updateHash = true) {
       </div>
     </article>
     
-    <!-- Blogger Comments & Reviews Integration -->
     <div class="reviews-section">
       <h3>Customer Reviews & Comments</h3>
       <div class="reviews-list" id="reviewsList"><div class="no-reviews"><i class="fa-solid fa-spinner fa-spin"></i>Loading comments from Blogger...</div></div>
@@ -1482,7 +1483,7 @@ function loadBloggerComments(postId, feedUrl, productId, forceRefresh) {
   window[cbName] = function(data) {
     cleanup();
     const entries = (data && data.feed && data.feed.entry) ? data.feed.entry : [];
-    bloggerCommentsCache[productId] = entries.map(function(c, i) {
+    bloggerCommentsCache[productId] = entries.map(function(c) {
       const author = (c.author && c.author[0] && c.author[0].name && c.author[0].name.$t) ? c.author[0].name.$t : 'Verified User';
       const rawBody = (c.content && c.content.$t) ? c.content.$t : (c.summary && c.summary.$t ? c.summary.$t : '');
       const comment = rawBody.replace(/<[^>]*>?/gm, ' ').trim() || 'Great template!';
@@ -1530,7 +1531,7 @@ function renderCommentsList(productId) {
 }
 
 // ══════════════════════════════════════════════════
-// CART
+// CART & CHECKOUT
 // ══════════════════════════════════════════════════
 function addToCart(id) {
   const item = themeData.find(t => t.id == id);
@@ -1558,9 +1559,6 @@ function saveCart() { localStorage.setItem('wtc_cart', JSON.stringify(cart)); }
 function updateCartBadge() { document.getElementById('cartCount').textContent = cart.length; }
 function cartTotal() { return cart.reduce((a, b) => a + b.price, 0); }
 
-// ══════════════════════════════════════════════════
-// CART PANEL RENDER
-// ══════════════════════════════════════════════════
 function renderCartPanel() {
   const body = document.getElementById('panelBody');
   const footer = document.getElementById('panelFooter');
